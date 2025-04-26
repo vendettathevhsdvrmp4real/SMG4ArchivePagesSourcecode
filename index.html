@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="stylesheet.css?v=31">
+  <meta charset="UTF-8">
+  <title>SMG4ARCHIVE:SITES</title>
+  <meta name="author" content="SMG4 ARCHIVE PAGES">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="description" content="SMG4ARCHIVE:SITES">
+  <meta name="keywords" content="Archive, SMG4, SMG4Archive, Puzzlevision, puzzlevision smg4, wotfi2024, wotfi2024 smg4, mr puzzles smg4">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SMG4 ARCHIVE PAGES">
+  <meta property="og:description" content="OFFICIAL EVENT BY SMG4 RADIO">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://smg4archivepages.pages.dev/">
+  <meta property="og:url" content="https://smg4archivepages.pages.dev/">
+  <meta property="og:site_name" content="SMG4 Marker Radio">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SMG4 Marker Radio — Слушать онлайн">
+  <meta name="twitter:description" content="OFFICIAL EVENT BY SMG4 RADIO">
+  <meta name="twitter:image" content="https://smg4archivepages.pages.dev/">
+
+  <!-- schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Archive",
+    "name": "SMG4 ARCHIVE",
+    "url": "https://smg4archivepages.pages.dev/",
+    "genre": "archive",
+    "description": "OFFICIAL EVENT BY SMG4 RADIO",
+    "image": "https://smg4archivepages.pages.dev/",
+    "sameAs": [
+      "https://smg4archivepages.pages.dev/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <img src="SMG4_2023.svg"><h2>SMG4 ARCHIVE SITES</h2><h3></h3>
+  </header>
+  <h2>Due for errors is not fixing is saved on wayback machine</h2>
+    <div class="selector-date-puzzlevision">
+        <label for="dateSelect1">🌐 Pick a date (Puzzlevision):</label>
+        <select id="dateSelect1" onchange="changedateByDate(this.value)">
+          <option value="20240331">31.03.2024</option>
+          <option value="20240407">07.04.2024</option>
+          <option value="20240416">16.04.2024</option>
+          <option value="20240417">17.04.2024</option>
+          <option value="20240730">30.07.2024</option>
+        </select>
+        
+      </div>
+      <div class="selector-date-wotfi2024">
+        <label for="dateSelect">🌐 Pick a date (WOTFI2024):</label>
+        <select id="dateSelect" onchange="changedateByDate1(this.value)">
+          <option value="20240916" selected>16.09.2024</option>
+          <option value="20241002"> 02.10.2024 </option>
+          <option value="20241005">05.10.2024</option>
+        </select>
+      </div>
+
+      <a href="https://smg4radiobetawebv2.pages.dev/">SMG4 Radio Project</a>
+
+      <script>
+function changedateByDate(date) {
+  if (date === '20240331') {
+    window.location.href = './puzzlevision/20240331/puzzlevision.html';
+  } else if (date === '20240407') {
+    window.location.href = './puzzlevision/20240407/puzzlevision.html';
+  } else if (date === '20240416') {
+    window.location.href = './puzzlevision/20240416/puzzlevision.html';
+  } else if (date === '20240417') {
+    window.location.href = './puzzlevision/20240417/index.html';
+  } else if (date === '20240730') {
+    window.location.href = './puzzlevision/20240730/puzzlevision.html';
+  }
+}
+
+function changedateByDate1(date) {
+  if (date === '20240916') {
+    window.location.href = './wotfi2024/20240916/archived.html';
+  } else if (date === '20241002') {
+    window.location.href = './wotfi2024/20241002/archived.html';
+  } else if (date === '20241005') {
+    window.location.href = './wotfi2024/20241005/wotfi20241005.html';
+  }
+}
+      </script>
+</body>
